@@ -106,11 +106,16 @@
 
 # nested for loop
 
-for i in range(1,3):
-    print("week:",i)
-    for j in range(1,4):
+# for i in range(1,3):
+#     print("week:",i)
+#     for j in range(1,4):
         
-        print("   day:",j)
+#         print("   day:",j)
+
+for i in range (1,4):
+   print()
+   for j in range(1,i+1):
+    print("*", end="")
    
 
 
