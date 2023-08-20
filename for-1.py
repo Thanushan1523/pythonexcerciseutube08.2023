@@ -86,9 +86,31 @@
 
 
 
-a=[]
-for i in range(1,4):
+
+# a=[]
+# for i in range(0,4):
         
-        num=int(input("enter number" +i)) 
-        a.append(num)
-print(a)             
+#         num=int(input("enter number" +str(i+1 ) )) 
+#         a.append(num)
+#         print(a) 
+#         sum=0
+#         for j in a:
+#                 sum=sum+j
+# print(sum)
+
+
+
+# for i in range (1,4):
+#     print("1st num is:",i ,"cube is:",i*i*i)
+
+
+# nested for loop
+
+for i in range(1,3):
+    print("week:",i)
+    for j in range(1,4):
+        
+        print("   day:",j)
+   
+
+
