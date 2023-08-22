@@ -132,12 +132,12 @@
 #     print(i,end=",")
 #     i=i-1
 
-i=50
-fa=1
-while(i>0):
-    fa=fa*i
-    i=i-1
-print(fa)
+# i=50
+# fa=1
+# while(i>0):
+#     fa=fa*i
+#     i=i-1
+# print(fa)
     
     
 
