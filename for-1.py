@@ -112,10 +112,22 @@
         
 #         print("   day:",j)
 
-for i in range (1,4):
-   print()
-   for j in range(1,i+1):
-    print("*", end="")
+# for i in range (1,4):
+#    print()
+#    for j in range(1,i+1):
+#     print("*", end="")
    
+# i=1
+# while(i<5):
+#     print(i)
+#     i=i+1
+    
+# i=10
+# while(i<201):
+#     print(i,end=",")
+#     i=i+10
 
-
+i=10
+while(i>1):
+    print(i,end=",")
+    i=i-1
