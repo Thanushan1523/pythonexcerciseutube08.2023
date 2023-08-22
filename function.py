@@ -20,17 +20,36 @@
 
 
 
-class laptop():
+# class laptop():
+#     def __init__(self):
+#         self.ram=""
+#         self.processor=""
+#     def display (self):
+#         print(self,"ram",self.ram)
+#         print("processor",self.processor)
+# # how to get the brand name of laptop when print
+# hp=laptop()
+# dell=laptop()
+# hp.processor="i7"
+# hp.ram="16gb"
+# dell.processor="i5"
+# dell.ram="8gb"
+
+# hp.display()
+# # dell.display()
+
+
+class student():
     def __init__(self):
-        self.ram=""
-        self.processor=""
+        self.name=""
+        self.regnum=""
     def display (self):
-        print("ram",self.ram)
-        print("processor",self.processor)
+        print("name",self.name)
+        print("regesternumber",self.regnum)
 
-hp=laptop()
+stu1= student()
+stu1.name= "ramanan"
+stu1.regnum="64444"
 
-hp.processor="i7"
-hp.ram="i7"
+stu1.display()
 
-hp.display()
