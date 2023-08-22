@@ -127,7 +127,17 @@
 #     print(i,end=",")
 #     i=i+10
 
-i=10
-while(i>1):
-    print(i,end=",")
+# i=10
+# while(i>1):
+#     print(i,end=",")
+#     i=i-1
+
+i=50
+fa=1
+while(i>0):
+    fa=fa*i
     i=i-1
+print(fa)
+    
+    
+
