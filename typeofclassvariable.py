@@ -85,5 +85,6 @@ class laptop:
 hp=laptop()
 hp.setprice(15000)
 hp.getprice()
-hp.changechargertype(laptop)
+laptop.changechargertype()
+hp.changechargertype()
 hp.info()
