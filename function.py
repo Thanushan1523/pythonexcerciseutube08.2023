@@ -79,12 +79,12 @@
 
 
 
-class calculator:
-    def __init__(self,a,b):
-        self.num1=a
-        self.num2=b
-    def add(self):
-        print("add:",self.num1+self.num2)
+# class calculator:
+#     def __init__(self,a,b):
+#         self.num1=a
+#         self.num2=b
+#     def add(self):
+#         print("add:",self.num1+self.num2)
         
-var1=calculator(2, 3)
-var1.add()
+# var1=calculator(2, 3)
+# var1.add()
