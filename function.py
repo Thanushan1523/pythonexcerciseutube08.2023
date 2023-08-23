@@ -39,17 +39,52 @@
 # # dell.display()
 
 
-class student():
-    def __init__(self):
-        self.name=""
-        self.regnum=""
-    def display (self):
-        print("name",self.name)
-        print("regesternumber",self.regnum)
+# class student():
+#     def __init__(self):
+#         self.name=""
+#         self.regnum=""
+#     def display (self):
+#         print("name",self.name)
+#         print("regesternumber",self.regnum)
 
-stu1= student()
-stu1.name= "ramanan"
-stu1.regnum="64444"
+# stu1= student()
+# stu1.name= "ramanan"
+# stu1.regnum="64444"
 
-stu1.display()
+# stu1.display()
 
+# class fruit:
+#     def __init__(self,col):
+#         self.color =col
+#     # def hi(self):
+#     #     print("color is:", self.color)
+# apple=fruit("red")
+# # apple.color="red"
+# print(apple.color)
+
+
+# class teacher:
+#     def __init__(self,name,registernum):
+#         self.name=name
+#         self.registernum=registernum
+#     def disply(self):
+#         print("name:",t1.name)
+#         print("regisnum:",t1.registernum)
+
+# t1=teacher("arivu","232")
+# t2=teacher("alaki","434")
+# # print("name:",t1.name,"regisnum:",t1.registernum)
+
+# t1.disply()
+
+
+
+class calculator:
+    def __init__(self,a,b):
+        self.num1=a
+        self.num2=b
+    def add(self):
+        print("add:",self.num1+self.num2)
+        
+var1=calculator(2, 3)
+var1.add()
