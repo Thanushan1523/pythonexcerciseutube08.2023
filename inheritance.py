@@ -14,20 +14,40 @@
 # ram.phone()
 # ram.sweet()
 
+### multiple level inheritance
 
-class grandfather():
-    def house(self):
-        print("grandfather's home")
 
-class appa(grandfather):
-    def car(self):
-        print("dad's car")
+# class grandfather():
+#     def house(self):
+#         print("grandfather's home")
 
-class me (appa):
-    def laptop(self):
-        print("my laptop")
+# class appa(grandfather):
+#     def car(self):
+#         print("dad's car")
 
-thanu=me()
-thanu.laptop()
-thanu.car()
-thanu.house()        
+# class me (appa):
+#     def laptop(self):
+#         print("my laptop")
+
+# thanu=me()
+# thanu.laptop()
+# thanu.car()
+# thanu.house()        
+
+##hirahey inheritance
+
+class amma():
+    def food(self):
+        print("amma's food")
+
+class son1(amma):
+    pass
+class son2(amma):
+    pass
+class son3(amma):
+    pass
+
+thanu=son1()
+thanu.food()
+
+        
