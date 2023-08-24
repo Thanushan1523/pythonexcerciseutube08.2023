@@ -114,6 +114,22 @@
 
 # ob1=b()
 
+# class a():
+#     def __init__(self):
+#         print("A")
+#     def display(self):
+#         print("i'm in class a")
+
+# class b(a):
+    
+#     def __init__(self):
+#         super().__init__()
+#         print("B")
+#     def display(self):
+#         print("i'm in class b")
+
+# ob1=b()
+
 class a():
     def __init__(self):
         print("A")
@@ -121,12 +137,15 @@ class a():
         print("i'm in class a")
 
 class b(a):
-    
     def __init__(self):
-        super().__init__()
         print("B")
     def display(self):
         print("i'm in class b")
 
-ob1=b()
+class c():
+    def __init__(self):
+        print("C")
+    def display(self):
+        print("i'm in class C")
 
+ob1=c()
