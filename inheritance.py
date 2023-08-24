@@ -130,20 +130,63 @@
 
 # ob1=b()
 
+# class a():
+#     def __init__(self):
+#         print("A")
+#     def display(self):
+#         print("i'm in class a")
+
+# class b():
+#     def __init__(self):
+#         print("B")
+#     def display(self):
+#         print("i'm in class b")
+
+# class c(b,a):
+#     def __init__(self):
+        
+#         print("C")
+#     def display(self):
+#         print("i'm in class C")
+
+# ob1=c()
+
 class a():
     def __init__(self):
         print("A")
     def display(self):
         print("i'm in class a")
 
-class b(a):
+# class b():
+#     def __init__(self):
+#         print("B")
+#     def display(self):
+#         print("i'm in class b")
+
+# class c(a,b):
+#     def __init__(self):
+#         super().__init__()
+#         print("C")
+#     def display(self):
+#         print("i'm in class C")
+
+# ob1=c()
+
+class a():
+    def __init__(self):
+        print("A")
+    def display(self):
+        print("i'm in class a")
+
+class b():
     def __init__(self):
         print("B")
     def display(self):
         print("i'm in class b")
 
-class c():
+class c(b,a):
     def __init__(self):
+        super().__init__()
         print("C")
     def display(self):
         print("i'm in class C")
