@@ -93,11 +93,10 @@ class a():
     def display(self):
         print("i'm in class a")
 
-class b():
+class b(a):
     def __init__(self):
         print("B")
     def display(self):
         print("i'm in class b")
 
 ob1=b()
-print(b())
