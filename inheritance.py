@@ -36,18 +36,37 @@
 
 ##hirahey inheritance
 
-class amma():
-    def food(self):
-        print("amma's food")
+# class amma():
+#     def food(self):
+#         print("amma's food")
 
-class son1(amma):
-    pass
-class son2(amma):
-    pass
-class son3(amma):
-    pass
+# class son1(amma):
+#     pass
+# class son2(amma):
+#     pass
+# class son3(amma):
+#     pass
 
-thanu=son1()
-thanu.food()
+# thanu=son1()
+# thanu.food()
 
+
+# hybrid inheritance
         
+
+
+# ## super keyword
+
+class a():
+    def __init__(self):
+        print("A")
+    def display(self):
+        print("i'm in class a")
+
+class b():
+    
+    def display(self):
+        print("i'm in class b")
+
+ob1=a()
+print(a())
