@@ -57,6 +57,36 @@
 
 # ## super keyword
 
+# class a():
+#     def __init__(self):
+#         print("A")
+#     def display(self):
+#         print("i'm in class a")
+
+# class b():
+    
+#     def display(self):
+#         print("i'm in class b")
+
+# ob1=a()
+# print(a())
+
+# class a():
+#     def __init__(self):
+#         print("A")
+#     def display(self):
+#         print("i'm in class a")
+
+# class b():
+#     def __init__(self):
+#         print("B")
+#     def display(self):
+#         print("i'm in class b")
+
+# ob1=b()
+# print(b())
+
+
 class a():
     def __init__(self):
         print("A")
@@ -64,9 +94,10 @@ class a():
         print("i'm in class a")
 
 class b():
-    
+    def __init__(self):
+        print("B")
     def display(self):
         print("i'm in class b")
 
-ob1=a()
-print(a())
+ob1=b()
+print(b())
