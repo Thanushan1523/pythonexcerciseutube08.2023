@@ -21,3 +21,10 @@ class Shape ():
     def area ():
         return 0
     
+class Rectangle (Shape):
+    def area ():
+        return "area of the rectangle"
+    
+r1=Rectangle()
+r1.area()
+print(r1.area())
