@@ -18,11 +18,13 @@
 # print(d1.sound)
 
 class Shape ():
-    def area ():
+    def area (self):
         return 0
+s1=Shape()
+print(s1.area())
     
-class Rectangle (Shape):
-    def area ():
+class Rectangle(Shape):
+    def area (self):
         return "area of the rectangle"
     
 r1=Rectangle()
