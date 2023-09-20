@@ -17,16 +17,24 @@
 # d1.sound()
 # print(d1.sound)
 
-class Shape ():
-    def area (self):
-        return 0
-s1=Shape()
-print(s1.area())
+# class Shape ():
+#     def area (self):
+#         return 0
+# s1=Shape()
+# print(s1.area())
     
-class Rectangle(Shape):
-    def area (self):
-        return "area of the rectangle"
+# class Rectangle(Shape):
+#     def area (self):
+#         return "area of the rectangle"
     
-r1=Rectangle()
-r1.area()
-print(r1.area())
+# r1=Rectangle()
+# r1.area()
+# print(r1.area())
+
+class Person():
+    def __init__(self,name):
+        self.name=name
+
+class Student (Person):
+    def __init__(self,grade):
+        self.grade=grade
