@@ -11,6 +11,19 @@
 # c1.companyname()
 
 # protector
+# class company ():
+#     def __init__(self):
+#         self._companyname="Genious"
+
+# class b(company):
+#     pass
+
+# b1=b()
+# c1=company()
+# print(c1._companyname)
+
+
+# protector variable can be acees by child class too
 class company ():
     def __init__(self):
         self._companyname="Genious"
@@ -19,5 +32,5 @@ class b(company):
     pass
 
 b1=b()
-c1=company()
-print(c1._companyname)
+
+print(b1._companyname)
