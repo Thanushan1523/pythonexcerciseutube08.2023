@@ -1,14 +1,23 @@
 # private variable
 
+# class company ():
+#     def __init__(self):
+#         self.__companyname="Genious"
+
+#     def companyname(self):
+#         print(self.__companyname)
+
+# c1=company()
+# c1.companyname()
+
+# protector
 class company ():
     def __init__(self):
-        self.__companyname="Genious"
+        self._companyname="Genious"
 
-    def companyname(self):
-        print(self.__companyname)
+class b(company):
+    pass
 
+b1=b()
 c1=company()
-c1.companyname
-
-
-print("hi")
+print(c1._companyname)
